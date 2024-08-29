@@ -1,0 +1,79 @@
+.sidenav {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  z-index: 1;
+}
+.sidenav__logo {
+  width: 120px;
+  margin: 25px;
+}
+.sidenav__buttons {
+  display: flex;
+  flex-direction: column;
+}
+.side_button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: white;
+  background: 0;
+  border: 0;
+  margin: 5px 10px 5px 10px;
+  padding: 10px 15px 10px 15px;
+  border-radius: 15px;
+  width: 100%;
+}
+.side_button:hover {
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.128);
+}
+.sidenav_more {
+  position: fixed;
+  bottom: 3px;
+}
+.side_button > span {
+  font-size: 18px;
+  font-weight: bolder;
+  margin-left: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+  .sidenav {
+    width: 80px;
+    margin-right: 0px;
+  }
+  .sidenav__logo {
+    width: 90px;
+    margin-right: 0px;
+  }
+  .side_button {
+    padding: 5px;
+  }
+  .side_button > span {
+    font-size: 15px;
+  }
+}
+@media only screen and (max-width: 431px) {
+  .sidenav {
+    width: 80px;
+    margin-right: 0px;
+  }
+  .sidenav__logo {
+    width: 45px;
+    margin-right: 0px;
+    margin-left: 5px;
+
+  }
+  .sidenav__buttons {
+    margin: 0;
+  }
+  .side_button {
+    padding: 5px;
+    width: 50%;
+  }
+  .side_button > span {
+    display: none;
+  }
+}
