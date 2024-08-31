@@ -1,3 +1,16 @@
+# InstagramUI
+
+## Description
+InstagramUI is a responsive, static clone of Instagram's user interface, created using React.js, HTML, and CSS. This project is designed to mimic the appearance and layout of Instagram, focusing on the visual aspects rather than full functionality.
+
+## Tech Stack
+- **Frontend**: React.js, HTML5, CSS3
+- **Tools**: npm, Create React App
+
+## Features
+- **Responsive Design**: The UI is designed to be fully responsive, adapting to different screen sizes and devices.
+- **Static Pages**: Mimics the layout of Instagram’s main feed and profile pages.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
